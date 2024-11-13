@@ -1,56 +1,50 @@
-CodeVenture
------------
-CodeVenture is an interactive educational app designed to make learning Python programming fun and engaging for children. Through a combination of games, quizzes, and articles, the app provides a comprehensive learning experience that is also parent-friendly.
+## CodeVenture
 
+## Group : 02
 
-Key Features
-------------
-1. Interactive Learning: Fun games and challenges tailored for young learners to grasp Python programming concepts effortlessly.
-2. Quizzes for Retention: Engaging quizzes at various levels to reinforce learning and track progress.
-3. Educational Articles: Carefully curated articles that introduce programming concepts in a simple and relatable way.
-4. Parent-Friendly Design: Features that allow parents to monitor their child's progress and understand the learning journey.
+## Class : Friday 2-4pm
 
-   
-Technology
-----------
-CodeVenture is developed entirely in Python, showcasing the power of the language while providing a safe and fun learning environment.
+## How to run?
+1. Ensure your current working directory is the root directory to the entire code
+2. To run the entire application, run the MainInterface.py or type python MainInterface.py via the terminal
 
+## Key functionalities and features
+1. *Login and Registration*
+- When you run the application, you will be directed to the home page, click on login or register if you haven't have an account.
+- If you don't have an account, you can register as a Young Learner/Educator/Parent.
+- Use your registered credentials to log in.
 
-How to Run the Application
---------------------------
-Prerequisites
-  - Python: Ensure Python (version 3.6 or later) is installed on your system. You can download it from python.org.
-  - PyCharm: Install PyCharm, a popular Python IDE, from jetbrains.com.
-      
-Steps to Run
-  1. Clone the Repository
-     - Clone the CodeVenture project repository to your local machine using Git or download the ZIP file and extract it.
-           - git clone https://github.com/YourRepository/CodeVenture.git
-           - cd CodeVenture
-  2. Open the Project in PyCharm
-      - Launch PyCharm and open the CodeVenture project directory.
-      - If prompted, create a new virtual environment for the project.
-        Ensure all required Python dependencies are installed.
-  3. Set Main File
-      - In PyCharm, go to Run > Edit Configurations.
-      - Click + Add New Configuration and select Python.
-      - Set MainInterface.py as the script path for the configuration.
-      - Save the configuration.
-  4. Run the Application
-      - Select the configuration created for MainInterface.py.
-      - Click the green Run button or press Shift + F10 to execute the program.
-      - The application will launch, and you can begin exploring CodeVenture.
+2. *User Roles*
+- As a "Young Learner," you can access and complete courses, take quizzes, play educational games (puzzle), view your learning progress, check on news.
+- As an "Educator," you can view students'progress.
+- As a "Parent, " you can access your child's progress by inputting their USERNAME 
 
-        
-Target Audience
----------------
-- Children:
-    Ideal for kids eager to explore programming in a playful yet educational way.
-- Parents:
-    Designed with parents in mind, ensuring they feel confident about their child's learning experience.
+3. *Young Learner Features*
+- Access and complete courses in a user-friendly interface.
+- Take quizzes to test your knowledge.
+- Play educational games like word searches.
+- View your progress and completion status for each course.
 
-  
-License
--------
-This project is licensed under the Apache License 2.0.
-© Andy Tjandra. All rights reserved.
+4. *Educator and Parent Features*
+- View the progress of your students ("YoungLearner"), provided that the student has completed >=1 course via the "View Progress" option, otherwise 0 progress will be displayed to the parent/educator.
+
+## Student Progress Tracker Usage
+1. Open the GUI by running the Python file.
+2. View course topics in the list box.
+3. Select a course topic from the list.
+4. Click the "Mark as Completed" button to mark the selected topic as completed.
+5. The status of the topic will be updated to "Completed" in the list box.
+6. Close the application by clicking the "Exit Codeventure" button.
+
+## Development Notes
+- The application's data (e.g., user information, course content, quizzes) is stored in JSON files.
+- User registration and login are handled through authentication mechanisms.
+- The code is organized into different frames (pages) to provide a clear user interface.
+
+## Parent Features
+- Parents can input the username of their child (Young Learner) to view their progress.
+- The application will display the progress of the selected child, including completed courses and topics.
+
+## Requirements
+- Python 3.8.5
+- Tkinter 8.6

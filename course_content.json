@@ -1,0 +1,164 @@
+{
+    "1": {
+        "title": "Variables Type",
+        "content": [
+            "Variables Type:",
+            "Python supports various types of variables:",
+            "- int (integer)",
+            "- float",
+            "- string",
+            "- boolean",
+            "",
+            "Examples:",
+            "x = 5          # int",
+            "y = 5.5        # float",
+            "z = 'Python'   # string",
+            "a = True       # boolean"
+        ]
+    },
+    "2": {
+        "title": "Loops",
+        "content": [
+            "Loops:",
+            "Python has two primitive loop commands:",
+            "- for loops",
+            "- while loops",
+            "",
+            "Example of a simple for loop:",
+            "for x in range(5):",
+            "    print(x)",
+            "",
+            "Example of a simple while loop:",
+            "y = 0",
+            "while y < 5:",
+            "    print(y)",
+            "    y += 1"
+        ]
+    },
+    "3": {
+        "title": "If Else",
+        "content": [
+            "If Else:",
+            "Python supports the usual logical conditions from mathematics:",
+            "- Equals: a == b",
+            "- Not Equals: a != b",
+            "- Less than: a < b",
+            "- Less than or equal to: a <= b",
+            "- Greater than: a > b",
+            "- Greater than or equal to: a >= b",
+            "",
+            "Example:",
+            "if a > b:",
+            "    print('a is greater than b')",
+            "elif a == b:",
+            "    print('a is equal to b')",
+            "else:",
+            "    print('a is less than b')"
+        ]
+    },
+    "4": {
+        "title": "OOP Class",
+        "content": [
+            "OOP Class:",
+            "In Python, everything is an object. Python allows us to create our own objects using the 'class' keyword.",
+            "",
+            "Example:",
+            "class MyClass:",
+            "    x = 5",
+            "",
+            "p1 = MyClass()",
+            "print(p1.x)"
+        ]
+    },
+    "5": {
+        "title": "Functions",
+        "content": [
+            "Functions:",
+            "A function is a block of organized, reusable code that performs a single action.",
+            "",
+            "Defining a function:",
+            "def greet(name):",
+            "    print('Hello, ' + name)",
+            "",
+            "Calling a function:",
+            "greet('Alice')"
+        ]
+    },
+
+    "6": {
+        "title": "Modules and Packages",
+        "content": [
+            "Modules and Packages:",
+            "Modules in Python are simply Python files with a .py extension. Packages are a way of structuring Python’s module namespace.",
+            "",
+            "Importing a module:",
+            "import math",
+            "print(math.sqrt(25))",
+            "",
+            "Importing a function from a module:",
+            "from math import sqrt",
+            "print(sqrt(25))"
+        ]
+    },
+
+    "7": {
+        "title": "File Handling",
+        "content": [
+            "File Handling:",
+            "Python can be used to read and write files.",
+            "",
+            "Reading from a file:",
+            "with open('file.txt', 'r') as f:",
+            "    content = f.read()",
+            "",
+            "Writing to a file:",
+            "with open('file.txt', 'w') as f:",
+            "    f.write('Hello, World!')"
+        ]
+    },
+
+    "8": {
+        "title": "Error and Exception Handling",
+        "content": [
+            "Error and Exception Handling:",
+            "Using try and except blocks, we can handle errors gracefully.",
+            "",
+            "Example:",
+            "try:",
+            "    result = 10 / 0",
+            "except ZeroDivisionError:",
+            "    print('Cannot divide by zero!')"
+        ]
+    },
+
+    "9": {
+        "title": "List Comprehensions",
+        "content": [
+            "List Comprehensions:",
+            "List comprehensions provide a concise way to create lists.",
+            "",
+            "Example:",
+            "squared_numbers = [x**2 for x in range(10)]",
+            "print(squared_numbers)"
+        ]
+    },
+
+    "10": {
+        "title": "Dictionaries and Dictionary Comprehensions",
+        "content": [
+            "Dictionaries:",
+            "A dictionary is a collection which is unordered, changeable, and indexed.",
+            "",
+            "Example of dictionary:",
+            "person = {'name': 'John', 'age': 30, 'city': 'New York'}",
+            "",
+            "Dictionary Comprehensions:",
+            "These are similar to list comprehensions, but allow you to easily construct dictionaries.",
+            "",
+            "Example:",
+            "squared = {x: x**2 for x in (2, 3, 4)}",
+            "print(squared)"
+        ]
+    }
+}
+
