@@ -1,9 +1,5 @@
 ## CodeVenture
 
-## Group : 02
-
-## Class : Friday 2-4pm
-
 ## How to run?
 1. Ensure your current working directory is the root directory to the entire code
 2. To run the entire application, run the MainInterface.py or type python MainInterface.py via the terminal
@@ -48,3 +44,7 @@
 ## Requirements
 - Python 3.8.5
 - Tkinter 8.6
+
+## License
+This project is licensed under the Apache License 2.0. 
+© Andy Tjandra. All rights reserved.
