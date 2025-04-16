@@ -1,0 +1,113 @@
+{
+    "Tutorials": [
+        {
+            "name": "Real Python",
+            "url": "https://realpython.com/"
+        },
+        {
+            "name": "Corey Schafer's YouTube Channel",
+            "url": "https://www.youtube.com/user/schafer5"
+        },
+        {
+            "name": "Python.org's Beginner Guide",
+            "url": "https://docs.python.org/3/tutorial/index.html"
+        },
+        {
+            "name": "W3Schools Python Tutorial",
+            "url": "https://www.w3schools.com/python/"
+        },
+        {
+            "name": "GeeksforGeeks Python Programming Language",
+            "url": "https://www.geeksforgeeks.org/python-programming-language/"
+        }
+    ],
+    "Documentation": [
+        {
+            "name": "Official Python Documentation",
+            "url": "https://docs.python.org/3/"
+        },
+        {
+            "name": "Python 3 Module of the Week",
+            "url": "https://pymotw.com/3/"
+        },
+        {
+            "name": "Python Lib Reference",
+            "url": "https://docs.python.org/3/library/"
+        },
+        {
+            "name": "Python Package Index (PyPI)",
+            "url": "https://pypi.org/"
+        },
+        {
+            "name": "Dive Into Python 3",
+            "url": "http://www.diveintopython3.net/"
+        }
+    ],
+    "Forums & Communities": [
+        {
+            "name": "Python Forum",
+            "url": "https://python-forum.io/"
+        },
+        {
+            "name": "Stack Overflow",
+            "url": "https://stackoverflow.com/"
+        },
+        {
+            "name": "Reddit Python Community",
+            "url": "https://www.reddit.com/r/Python/"
+        },
+        {
+            "name": "Python Discord Community",
+            "url": "https://discord.com/invite/python"
+        },
+        {
+            "name": "Python Community on Slack",
+            "url": "https://pyslackers.com/"
+        }
+    ],
+    "Courses & Certifications": [
+        {
+            "name": "Python Crash Course on Coursera",
+            "url": "https://www.coursera.org/"
+        },
+        {
+            "name": "Codecademy's Python Course",
+            "url": "https://www.codecademy.com/learn/learn-python-3"
+        },
+        {
+            "name": "Udemy Python Bootcamp",
+            "url": "https://www.udemy.com/course/complete-python-bootcamp/"
+        },
+        {
+            "name": "edX Python for Data Science",
+            "url": "https://www.edx.org/learn/python-online"
+        },
+        {
+            "name": "Google's Python Class",
+            "url": "https://developers.google.com/edu/python"
+        }
+    ],
+    "Books": [
+        {
+            "name": "Automate the Boring Stuff with Python",
+            "url": "https://automatetheboringstuff.com/"
+        },
+        {
+            "name": "Python Crash Course",
+            "url": "https://nostarch.com/pythoncrashcourse2e"
+        },
+        {
+            "name": "Learning Python",
+            "url": "https://www.oreilly.com/library/view/learning-python-5th/9781449355722/"
+        },
+        {
+            "name": "Python Cookbook",
+            "url": "https://www.oreilly.com/library/view/python-cookbook-3rd/9781449357337/"
+        },
+        {
+            "name": "Think Python",
+            "url": "https://greenteapress.com/wp/think-python-2e/"
+        }
+    ]
+}
+

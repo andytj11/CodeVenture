@@ -1,0 +1,142 @@
+[
+    {
+        "firstname": "Victoria",
+        "lastname": "Simpkin",
+        "username": "victoriaS",
+        "password": "v1ctor14",
+        "user_role": "YoungLearner",
+        "progress": {
+            "1": false,
+            "2": false,
+            "3": false,
+            "4": false,
+            "5": false,
+            "6": false,
+            "7": false,
+            "8": false,
+            "9": false,
+            "10": false
+        }
+    },
+    {
+        "firstname": "Ken",
+        "lastname": "John",
+        "username": "kenJ",
+        "password": "kenjohn",
+        "user_role": "Educator",
+        "progress": {
+            "1": false,
+            "2": false,
+            "3": false,
+            "4": false,
+            "5": false,
+            "6": false,
+            "7": false,
+            "8": false,
+            "9": false,
+            "10": false
+        }
+    },
+    {
+        "firstname": "Steve",
+        "lastname": "Erickson",
+        "username": "steveE",
+        "password": "stiven",
+        "user_role": "Parent"
+    },
+    {
+        "firstname": "Lizzy",
+        "lastname": "Swift",
+        "username": "lizzyS",
+        "password": "l1zzyS",
+        "user_role": "YoungLearner",
+        "progress": {
+            "1": false,
+            "2": false,
+            "3": false,
+            "4": false,
+            "5": false,
+            "6": false,
+            "7": false,
+            "8": false,
+            "9": false,
+            "10": false
+        }
+    },
+    {
+        "firstname": "Andy",
+        "lastname": "Tjandra",
+        "username": "andytj",
+        "password": "andy2003",
+        "user_role": "YoungLearner",
+        "progress": {
+            "1": false,
+            "2": false,
+            "3": false,
+            "4": false,
+            "5": false,
+            "6": false,
+            "7": false,
+            "8": false,
+            "9": false,
+            "10": false
+        }
+    },
+    {
+        "firstname": "Alvin",
+        "lastname": "Brian",
+        "username": "alvinB",
+        "password": "alvin2005",
+        "user_role": "YoungLearner",
+        "progress": {
+            "1": false,
+            "2": false,
+            "3": false,
+            "4": false,
+            "5": false,
+            "6": false,
+            "7": false,
+            "8": false,
+            "9": false,
+            "10": false
+        }
+    },
+    {
+        "firstname": "Marcholas",
+        "lastname": "Tjangnaka",
+        "username": "marcholasT",
+        "password": "qwerty05",
+        "user_role": "YoungLearner",
+        "progress": {
+            "1": false,
+            "2": false,
+            "3": false,
+            "4": true,
+            "5": false,
+            "6": false,
+            "7": false,
+            "8": false,
+            "9": false,
+            "10": false
+        }
+    },
+    {
+        "firstname": "Andyy",
+        "lastname": "Andy",
+        "username": "andyyA",
+        "password": "12345678",
+        "user_role": "YoungLearner",
+        "progress": {
+            "1": false,
+            "2": false,
+            "3": false,
+            "4": false,
+            "5": false,
+            "6": false,
+            "7": false,
+            "8": false,
+            "9": false,
+            "10": false
+        }
+    }
+]
